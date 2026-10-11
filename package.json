@@ -1,0 +1,10 @@
+{
+  "name": "zhedun",
+  "version": "1.0.0",
+  "private": true,
+  "description": "散场前把一顿饭的账算清。",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT"
+}

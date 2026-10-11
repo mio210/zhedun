@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>这顿 — 散场前把账算清</title>
+  <meta name="description" content="一顿饭谁垫了、谁吃了，当场算出最少的几笔转账。账只留在这台浏览器里。" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Noto+Serif+SC:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="mast">
+    <div class="brand">
+      <span class="chop" aria-hidden="true">顿</span>
+      <div>
+        <p class="eyebrow">一顿饭的账</p>
+        <h1>这顿</h1>
+      </div>
+    </div>
+    <p class="lede">记下谁点了什么、谁先垫了钱。散场前给出最少的几笔转账，复制到微信。</p>
+  </header>
+  <div class="layout">
+    <aside id="rail" class="rail"></aside>
+    <main id="sheet"></main>
+  </div>
+  <footer class="colophon">账只存在这台浏览器里。换电脑之前先导出。</footer>
+  <noscript><p class="noscript">打开 JavaScript 才能记账。</p></noscript>
+  <script src="ledger.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
